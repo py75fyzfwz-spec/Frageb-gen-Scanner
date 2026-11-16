@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { antwortAuswerten, client, fehlerText, mockExtraktion, MOCK, seitenAnfrage } from "@/lib/claude";
+import { antwortAuswerten, client, fehlerText, mockExtraktion, MOCK, MODEL, seitenAnfrage } from "@/lib/claude";
 
 export const maxDuration = 300;
 
@@ -15,11 +15,13 @@ export async function POST(req: Request) {
   }
   try {
     // Bei einer Ablehnung durch die Sicherheitsfilter versucht die API es automatisch mit einem Ersatzmodell.
-    const msg = await client.beta.messages.create({
-      ...seitenAnfrage(fileId),
-      betas: ["server-side-fallback-2026-07-01"],
-      fallbacks: "default",
-    });
+    const msg = MODEL.includes("haiku")
+      ? await client.messages.create(seitenAnfrage(fileId)) // Haiku: keine serverseitige Ausweich-Option
+      : await client.beta.messages.create({
+          ...seitenAnfrage(fileId),
+          betas: ["server-side-fallback-2026-07-01"],
+          fallbacks: "default",
+        });
     return NextResponse.json(antwortAuswerten(msg));
   } catch (err) {
     const { text, status } = fehlerText(err);

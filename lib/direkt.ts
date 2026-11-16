@@ -78,11 +78,15 @@ export async function direktApi(url: string, init?: RequestInit): Promise<Respon
         });
       }
       try {
-        const msg = await client().beta.messages.create({
-          ...baueAnfrage({ base64: daten }, modell(), "low"),
-          betas: ["server-side-fallback-2026-07-01"],
-          fallbacks: "default",
-        });
+        const m = modell();
+        // Haiku hat keine serverseitige Ausweich-Option bei Ablehnungen
+        const msg = m.includes("haiku")
+          ? await client().messages.create(baueAnfrage({ base64: daten }, m, "low"))
+          : await client().beta.messages.create({
+              ...baueAnfrage({ base64: daten }, m, "low"),
+              betas: ["server-side-fallback-2026-07-01"],
+              fallbacks: "default",
+            });
         return antwort(antwortAuswerten(msg));
       } catch (err) {
         const r = fehler(err);
