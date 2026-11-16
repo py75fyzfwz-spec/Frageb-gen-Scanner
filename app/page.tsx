@@ -497,13 +497,13 @@ export default function Startseite() {
               <div>
                 <h3>Sofort</h3>
                 <p className="leise">Für Tests und kleine Mengen (bis etwa 100 Seiten). Ergebnis nach wenigen Minuten, Fenster offen lassen.</p>
-                <p className="leise">Kosten ca. {dollar(nOffen * 3.5)} (Schätzung)</p>
+                <p className="leise">Kosten ca. {dollar(nOffen * 2)} (Erfahrungswert)</p>
                 <button className="haupt" onClick={() => sofortAuswerten()} disabled={beschaeftigt || !nOffen}>Sofort auswerten</button>
               </div>
               {!NUR_BROWSER && <div>
                 <h3>Sammelauftrag</h3>
                 <p className="leise">Für große Mengen. Halber Preis, dauert meist unter einer Stunde. Fenster darf geschlossen werden.</p>
-                <p className="leise">Kosten ca. {dollar(nOffen * 1.75)} (Schätzung)</p>
+                <p className="leise">Kosten ca. {dollar(nOffen * 1)} (Erfahrungswert)</p>
                 <button className="haupt" onClick={sammelauftragStarten} disabled={beschaeftigt || !nOffen}>Sammelauftrag starten</button>
               </div>}
             </div>

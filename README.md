@@ -32,8 +32,8 @@ Der Schlüssel liegt nur auf dem Server und ist im Browser nie sichtbar.
 
 Modell `claude-opus-5-5` ($4 / $20 pro Million Token Ein-/Ausgabe). Pro Seite etwa 3.000 Token Bild plus 1.000 Token Anleitung, dazu die Antwort.
 
-- Sofort: ca. 3 bis 4 US-Cent pro Seite
-- Sammelauftrag: ca. 1,5 bis 2 US-Cent pro Seite, also etwa 60 bis 80 US-Dollar für 4.000 Bögen
+- Sofort: ca. 2 Cent pro Seite (Test mit 113 Brühl-Bögen: 2 Euro)
+- Sammelauftrag: ca. 1 Cent pro Seite, also etwa 40 Euro für 4.000 Bögen
 
 Die echten Kosten stehen in der Anthropic Console unter *Usage*. Am besten zuerst 20 bis 50 Bögen *sofort* auswerten und mit der Hand-Erfassung vergleichen.
 
