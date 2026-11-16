@@ -88,8 +88,14 @@ export function zeileBauen(
     }
     freq = 1;
   } else if (novize === null && freq != null) {
+    // Nur eine Zahl auf der Linie: wie bei der Handeingabe als "Nein" werten
     novize = 0;
+  }
+  if (novize === 0 && freq === 1) {
+    // "bereits zum 1. Mal" ist widersprüchlich zu "Nein, nicht zum ersten Mal"
     pruefen.add("novize");
+    pruefen.add("freq");
+    hinweise.push('"Nein" (nicht zum ersten Mal), aber Zahl 1 eingetragen.');
   }
   if (freq != null && (freq < 1 || freq > 30)) pruefen.add("freq");
 
