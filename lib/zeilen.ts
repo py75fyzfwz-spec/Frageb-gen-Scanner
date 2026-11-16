@@ -63,6 +63,7 @@ export function zeileBauen(
 
   for (const f of e.unsicher) {
     if (f === "kopf") KOPF_SPALTEN.forEach((s) => pruefen.add(s));
+    else if (f === "notiz" || f === "nwieder") continue; // Freitext: kein Grund zum Nachprüfen
     else pruefen.add(f);
   }
 
@@ -100,7 +101,13 @@ export function zeileBauen(
   if (freq != null && (freq < 1 || freq > 30)) pruefen.add("freq");
 
   const wieder = e.wieder === "ja" ? 1 : e.wieder === "nein" ? 0 : null;
-  if (wieder === 1 && e.nwieder.trim()) pruefen.add("wieder");
+  let nwieder = e.nwieder.trim();
+  let notiz = e.notiz.trim();
+  if (wieder === 1 && nwieder) {
+    // Text auf der "Nein, weil"-Linie bei "Ja": gehört zu den Anmerkungen
+    notiz = notiz ? `${notiz} ${nwieder}` : nwieder;
+    nwieder = "";
+  }
 
   const age = zahl(e.age);
   if (age != null && (age < 3 || age > 105)) pruefen.add("age");
@@ -130,10 +137,10 @@ export function zeileBauen(
       veranst: note(e.veranst),
       fest: note(e.fest),
       wieder,
-      nwieder: e.nwieder.trim() || null,
+      nwieder: nwieder || null,
       age,
       sex,
-      notiz: e.notiz.trim() || null,
+      notiz: notiz || null,
     },
     datei: quelle.datei,
     seite: quelle.seite,

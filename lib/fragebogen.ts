@@ -109,13 +109,19 @@ Aufbau eines Bogens (eine A4-Seite):
 
 Regeln:
 - Leere Felder bleiben leer (""), auch wenn andere Bögen dort etwas haben. Rate nie.
-- Mehrere Markierungen in einer Zeile, Markierung genau zwischen zwei Spalten, durchgestrichene und neu gesetzte Kreuze, schwer lesbare Ziffern oder Wörter: gib deine beste Lesart an und trage das Feld in "unsicher" ein. Wenn es keine sinnvolle beste Lesart gibt, lass das Feld leer und trage es trotzdem in "unsicher" ein.
-- Eine Markierung, die eindeutig korrigiert wurde (z. B. ein Kreuz durchgestrichen und ein anderes deutlich gesetzt, oder ein Hinweis wie "falsch"), zählt in ihrer korrigierten Form; trage das Feld dann in "unsicher" ein.
+- Gib bei schwierigen Stellen immer deine beste Lesart an.
+- "unsicher" ist sparsam zu verwenden: nur wenn ein Mensch mit dem Papierbogen in der Hand wahrscheinlich einen anderen Wert eintragen würde. Typische Fälle:
+  - zwei oder mehr Noten in einer Zeile markiert, oder ein Kreuz genau zwischen zwei Spalten
+  - eine Ziffer bei Alter oder Häufigkeit, die ernsthaft zwei Werte sein kann (z. B. 61 oder 67)
+  - Ja und Nein beide angekreuzt
+  - eine Bewertung, die sich laut Randnotiz offensichtlich auf etwas anderes bezieht
+- Nicht in "unsicher": wenn du dir bei deiner Lesart ziemlich sicher bist („vermutlich 82“ reicht nicht als Grund), eindeutig korrigierte Kreuze, ungewöhnliche Schreibweisen (Symbole, Abkürzungen), und Unsicherheiten im Wortlaut von notiz oder nwieder. Freitext muss nicht perfekt sein.
+- Positiver Text auf der Linie "Nein, weil" bei angekreuztem Ja gehört in notiz, nicht in nwieder.
 - Erfasse nur, was auf dieser Seite steht.
 - Kritzeleien oder Zeichen am Rand (z. B. ein "?" neben einer Zeile ohne Kreuz, ein Kringel neben dem Datum) sind keine Antworten. Eine Zeile ohne Markierung bleibt leer.
 - Gemalte Smileys im Anmerkungsfeld als ":-)" bzw. ":-(" wiedergeben.
-- "unsicher" enthält nur Felder, bei denen ein Mensch nachschauen sollte. Bei klaren Antworten bleibt die Liste leer.
-- "hinweis": ein kurzer Satz auf Deutsch, warum Felder unsicher sind (z. B. "Film: Kreuz zwischen 1 und 2"). Leer, wenn alles klar ist.
+- Bei den allermeisten Bögen bleibt "unsicher" leer.
+- "hinweis": ein kurzer Satz auf Deutsch, warum Felder unsicher sind (z. B. "Film: Kreuz zwischen 1 und 2"). Leer, wenn "unsicher" leer ist.
 - ist_fragebogen: false, wenn die Seite kein solcher Fragebogen ist (z. B. leere Rückseite, Deckblatt, anderes Dokument). Dann alle übrigen Felder leer lassen und im hinweis kurz beschreiben, was auf der Seite ist.`;
 
 export const USER_PROMPT =
