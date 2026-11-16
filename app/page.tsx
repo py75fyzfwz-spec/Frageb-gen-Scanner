@@ -7,6 +7,11 @@ import { excelBauen } from "@/lib/excel";
 import { type SeitenQuelle, seitenAuflisten } from "@/lib/seiten";
 import { SPALTEN, type Uebersprungen, type Zeile, zeileBauen } from "@/lib/zeilen";
 import { type Veranstaltung, veranstaltungText } from "@/lib/zuordnung";
+import { direktApi, SCHLUESSEL_SPEICHER, schluessel } from "@/lib/direkt";
+
+/** GitHub-Pages-Version: kein Server, Aufrufe gehen direkt vom Browser an Claude. */
+const NUR_BROWSER = process.env.NEXT_PUBLIC_NUR_BROWSER === "1";
+const api = (url: string, init?: RequestInit) => (NUR_BROWSER ? direktApi(url, init) : fetch(url, init));
 
 interface Seite {
   key: string;
@@ -47,7 +52,7 @@ function speichern(key: string, wert: unknown): boolean {
 }
 
 async function postJson<T>(url: string, body: unknown): Promise<{ ok: boolean; status: number; daten: T }> {
-  const res = await fetch(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
+  const res = await api(url, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify(body) });
   const daten = (await res.json().catch(() => ({ fehler: `Serverfehler (${res.status})` }))) as T;
   return { ok: res.ok, status: res.status, daten };
 }
@@ -179,7 +184,7 @@ export default function Startseite() {
             const fd = new FormData();
             fd.append("bild", bild, `${s.datei.replace(/\.[^.]+$/, "")}-S${s.seite}.jpg`);
             fd.append("name", `${s.datei}-S${s.seite}.jpg`);
-            const res = await fetch("/api/upload", { method: "POST", body: fd });
+            const res = await api("/api/upload", { method: "POST", body: fd });
             const d = await res.json();
             if (res.ok && d.fileId) {
               seiteSetzen(s.key, { fileId: d.fileId });
@@ -266,7 +271,7 @@ export default function Startseite() {
   const batchPruefen = useCallback(async () => {
     const id = auftrag.batchId;
     if (!id) return;
-    const res = await fetch(`/api/batch/${encodeURIComponent(id)}`);
+    const res = await api(`/api/batch/${encodeURIComponent(id)}`);
     const d = await res.json();
     if (!res.ok) {
       aendern((a) => ({ ...a, batchStand: d.fehler ?? "Stand unbekannt" }));
@@ -279,7 +284,7 @@ export default function Startseite() {
       return;
     }
     aendern((a) => ({ ...a, batchStand: "Fertig, Ergebnisse werden abgeholt …" }));
-    const r = await fetch(`/api/batch/${encodeURIComponent(id)}/results`);
+    const r = await api(`/api/batch/${encodeURIComponent(id)}/results`);
     const e = await r.json();
     if (!r.ok) {
       aendern((a) => ({ ...a, batchStand: e.fehler ?? "Ergebnisse konnten nicht abgeholt werden." }));
@@ -386,6 +391,8 @@ export default function Startseite() {
         bleibt in diesem Browser gespeichert.
       </p>
 
+      {NUR_BROWSER && <SchluesselKarte />}
+
       {(taetigkeit || meldung) && (
         <div className="karte" role="status">
           {taetigkeit && <strong>{taetigkeit}</strong>}
@@ -455,7 +462,9 @@ export default function Startseite() {
       <section className={`karte ${!seiten.length ? "aus" : ""}`}>
         <h2><span className={`schritt ${seiten.length && hochgeladen === seiten.length ? "fertig" : ""}`}>2</span> Hochladen</h2>
         <p className="leise" style={{ marginTop: 0 }}>
-          Jede Seite wird verkleinert und zur Auswertung an Claude (Anthropic) übertragen. Bitte das Fenster offen
+          {NUR_BROWSER
+            ? "Jede Seite wird verkleinert und für die Auswertung bereitgelegt."
+            : "Jede Seite wird verkleinert und zur Auswertung an Claude (Anthropic) übertragen."} Bitte das Fenster offen
           lassen, bis alles hochgeladen ist (etwa 1 Minute pro 100 Seiten).
         </p>
         <div className="reihe">
@@ -491,12 +500,12 @@ export default function Startseite() {
                 <p className="leise">Kosten ca. {dollar(nOffen * 3.5)} (Schätzung)</p>
                 <button className="haupt" onClick={() => sofortAuswerten()} disabled={beschaeftigt || !nOffen}>Sofort auswerten</button>
               </div>
-              <div>
+              {!NUR_BROWSER && <div>
                 <h3>Sammelauftrag</h3>
                 <p className="leise">Für große Mengen. Halber Preis, dauert meist unter einer Stunde. Fenster darf geschlossen werden.</p>
                 <p className="leise">Kosten ca. {dollar(nOffen * 1.75)} (Schätzung)</p>
                 <button className="haupt" onClick={sammelauftragStarten} disabled={beschaeftigt || !nOffen}>Sammelauftrag starten</button>
-              </div>
+              </div>}
             </div>
           </>
         )}
@@ -533,6 +542,39 @@ export default function Startseite() {
         </div>
       </section>
     </main>
+  );
+}
+
+function SchluesselKarte() {
+  const [wert, setWert] = useState("");
+  const [gespeichert, setGespeichert] = useState(false);
+  useEffect(() => setGespeichert(!!schluessel()), []);
+  return (
+    <section className="karte">
+      <h2>API-Schlüssel</h2>
+      {gespeichert ? (
+        <div className="reihe">
+          <span className="gut">Schlüssel ist in diesem Browser gespeichert.</span>
+          <button onClick={() => { try { localStorage.removeItem(SCHLUESSEL_SPEICHER); } catch {} setGespeichert(false); }}>
+            Schlüssel entfernen
+          </button>
+        </div>
+      ) : (
+        <>
+          <p className="leise" style={{ marginTop: 0 }}>
+            Testversion ohne Server: Der Schlüssel aus der Anthropic Console wird nur in diesem Browser gespeichert und
+            direkt an Anthropic geschickt. Nur auf dem eigenen Rechner verwenden.
+          </p>
+          <div className="reihe">
+            <input type="password" placeholder="sk-ant-…" value={wert} onChange={(e) => setWert(e.target.value)} style={{ flex: 1, minWidth: 200 }} />
+            <button className="haupt" disabled={!wert.trim().startsWith("sk-")}
+              onClick={() => { try { localStorage.setItem(SCHLUESSEL_SPEICHER, wert.trim()); } catch {} setWert(""); setGespeichert(true); }}>
+              Speichern
+            </button>
+          </div>
+        </>
+      )}
+    </section>
   );
 }
 

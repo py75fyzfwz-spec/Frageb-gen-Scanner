@@ -1,75 +1,24 @@
 import "server-only";
 import Anthropic from "@anthropic-ai/sdk";
-import type { MessageCreateParamsNonStreaming } from "@anthropic-ai/sdk/resources/messages/messages";
-import {
-  EXTRAKTION_SCHEMA,
-  SYSTEM_PROMPT,
-  USER_PROMPT,
-  type Extraktion,
-} from "./fragebogen";
+import type { Extraktion } from "./fragebogen";
 import type { Ergebnis } from "./claude-typen";
+import { baueAnfrage, type Effort } from "./anfrage";
 
 // Der API-Schlüssel kommt nur aus der Server-Umgebung (Vercel: Environment Variables).
 export const client = new Anthropic();
 
 export const MODEL = process.env.CLAUDE_MODEL || "claude-opus-5-5";
-type Effort = "low" | "medium" | "high" | "xhigh" | "max";
 const EFFORT = (process.env.CLAUDE_EFFORT || "low") as Effort;
 
 /** Für Tests ohne API-Schlüssel: MOCK_CLAUDE=1 liefert erfundene Antworten. */
 export const MOCK = process.env.MOCK_CLAUDE === "1";
 
-/** Hochgeladene Seiten werden bei Anthropic nach dieser Zeit automatisch gelöscht. */
-export const FILE_TTL_SECONDS = 7 * 24 * 3600;
-
-/** Anfrage für eine Seite (für Direktaufruf und Sammelauftrag gleich). */
-export function seitenAnfrage(fileId: string): MessageCreateParamsNonStreaming {
-  return {
-    model: MODEL,
-    max_tokens: 16000,
-    system: [
-      { type: "text", text: SYSTEM_PROMPT, cache_control: { type: "ephemeral" } },
-    ],
-    messages: [
-      {
-        role: "user",
-        content: [
-          { type: "image", source: { type: "file", file_id: fileId } },
-          { type: "text", text: USER_PROMPT },
-        ],
-      },
-    ],
-    output_config: {
-      effort: EFFORT,
-      format: { type: "json_schema", schema: EXTRAKTION_SCHEMA as unknown as Record<string, unknown> },
-    },
-  };
-}
-
+export { antwortAuswerten, FILE_TTL_SECONDS } from "./anfrage";
 export type { Ergebnis };
 
-interface AntwortTeil {
-  stop_reason: string | null;
-  content: Array<{ type: string; text?: string }>;
-}
-
-/** Liest Claudes Antwort aus und prüft, ob sie vollständig ist. */
-export function antwortAuswerten(msg: AntwortTeil): Ergebnis {
-  if (msg.stop_reason === "refusal") {
-    return { ok: false, fehler: "Claude hat die Seite abgelehnt.", wiederholbar: false };
-  }
-  if (msg.stop_reason === "max_tokens") {
-    return { ok: false, fehler: "Antwort war zu lang und wurde abgeschnitten.", wiederholbar: true };
-  }
-  const text = msg.content
-    .filter((b) => b.type === "text")
-    .map((b) => b.text ?? "")
-    .join("");
-  try {
-    return { ok: true, daten: JSON.parse(text) as Extraktion };
-  } catch {
-    return { ok: false, fehler: "Antwort war kein gültiges JSON.", wiederholbar: true };
-  }
+/** Anfrage für eine Seite (für Direktaufruf und Sammelauftrag gleich). */
+export function seitenAnfrage(fileId: string) {
+  return baueAnfrage({ fileId }, MODEL, EFFORT);
 }
 
 export function mockExtraktion(seed: string): Extraktion {
