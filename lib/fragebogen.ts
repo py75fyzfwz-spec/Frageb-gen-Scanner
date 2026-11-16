@@ -110,6 +110,8 @@ Regeln:
 - Mehrere Markierungen in einer Zeile, Markierung genau zwischen zwei Spalten, durchgestrichene und neu gesetzte Kreuze, schwer lesbare Ziffern oder Wörter: gib deine beste Lesart an und trage das Feld in "unsicher" ein. Wenn es keine sinnvolle beste Lesart gibt, lass das Feld leer und trage es trotzdem in "unsicher" ein.
 - Eine Markierung, die eindeutig korrigiert wurde (z. B. ein Kreuz durchgestrichen und ein anderes deutlich gesetzt, oder ein Hinweis wie "falsch"), zählt in ihrer korrigierten Form; trage das Feld dann in "unsicher" ein.
 - Erfasse nur, was auf dieser Seite steht.
+- Kritzeleien oder Zeichen am Rand (z. B. ein "?" neben einer Zeile ohne Kreuz, ein Kringel neben dem Datum) sind keine Antworten. Eine Zeile ohne Markierung bleibt leer.
+- Gemalte Smileys im Anmerkungsfeld als ":-)" bzw. ":-(" wiedergeben.
 - "unsicher" enthält nur Felder, bei denen ein Mensch nachschauen sollte. Bei klaren Antworten bleibt die Liste leer.
 - "hinweis": ein kurzer Satz auf Deutsch, warum Felder unsicher sind (z. B. "Film: Kreuz zwischen 1 und 2"). Leer, wenn alles klar ist.
 - ist_fragebogen: false, wenn die Seite kein solcher Fragebogen ist (z. B. leere Rückseite, Deckblatt, anderes Dokument). Dann alle übrigen Felder leer lassen und im hinweis kurz beschreiben, was auf der Seite ist.`;
