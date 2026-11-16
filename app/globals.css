@@ -1,0 +1,66 @@
+:root {
+  --bg: #f6f5f2;
+  --card: #ffffff;
+  --text: #1f2328;
+  --muted: #636c76;
+  --line: #d9d6cf;
+  --accent: #b3261e;
+  --accent-text: #ffffff;
+  --ok: #1a7f37;
+  --warn-bg: #fff2a8;
+  --err: #b42318;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #17181a;
+    --card: #222326;
+    --text: #e8e6e3;
+    --muted: #a0a4a8;
+    --line: #3a3c40;
+    --accent: #e0574f;
+    --accent-text: #111;
+    --ok: #4ac26b;
+    --warn-bg: #5c5212;
+    --err: #ff7b72;
+  }
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+main { max-width: 860px; margin: 0 auto; padding: 24px 16px 64px; }
+h1 { font-size: 1.6rem; margin: 0 0 4px; }
+h2 { font-size: 1.15rem; margin: 0 0 12px; display: flex; gap: 10px; align-items: center; }
+.schritt { display: inline-grid; place-items: center; width: 28px; height: 28px; border-radius: 50%; background: var(--accent); color: var(--accent-text); font-size: .9rem; flex: none; }
+.schritt.fertig { background: var(--ok); }
+.untertitel { color: var(--muted); margin: 0 0 24px; }
+.karte { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+.karte.aus { opacity: .5; pointer-events: none; }
+button, .knopf {
+  font: inherit; border: 1px solid var(--line); background: var(--card); color: var(--text);
+  border-radius: 8px; padding: 10px 16px; cursor: pointer; display: inline-block; text-decoration: none;
+}
+button.haupt { background: var(--accent); color: var(--accent-text); border-color: var(--accent); font-weight: 600; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+.reihe { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+.leise { color: var(--muted); font-size: .92rem; }
+.fehler { color: var(--err); }
+.gut { color: var(--ok); }
+label { display: block; margin: 12px 0 4px; font-weight: 600; }
+input[type="text"], input[type="number"], input[type="password"], select {
+  font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 8px;
+  background: var(--card); color: var(--text); width: 100%; max-width: 100%;
+}
+.balken { height: 10px; background: var(--line); border-radius: 5px; overflow: hidden; margin: 10px 0 4px; }
+.balken > div { height: 100%; background: var(--accent); transition: width .3s; }
+.wahl { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.wahl > div { border: 1px solid var(--line); border-radius: 10px; padding: 14px; }
+.wahl h3 { margin: 0 0 6px; font-size: 1rem; }
+.tabelle { overflow-x: auto; margin-top: 12px; }
+table { border-collapse: collapse; font-size: .85rem; white-space: nowrap; }
+th, td { border: 1px solid var(--line); padding: 3px 6px; text-align: left; }
+td.unsicher { background: var(--warn-bg); }
+details summary { cursor: pointer; color: var(--muted); }

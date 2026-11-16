@@ -1,0 +1,3702 @@
+[
+ {
+  "ver": 1,
+  "stadt": "Abtsteinach",
+  "ort": 34,
+  "raum": "Gemeindeverwaltung Abtsteinach",
+  "typ": 6,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 2,
+  "stadt": "Annweiler am Trifels",
+  "ort": 143,
+  "raum": "Kino Digital im Hohenstaufensaal Annweiler am Trifels",
+  "typ": 4,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 3,
+  "stadt": "Bad Dürkheim",
+  "ort": 113,
+  "raum": "Mehrgenerationenhaus Sonnenblume",
+  "typ": 1,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 4,
+  "stadt": "Bad Dürkheim",
+  "ort": 113,
+  "raum": "Burgkirche",
+  "typ": 5,
+  "titel": 14,
+  "film": "Sein letztes Rennen",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 5,
+  "stadt": "Bad Dürkheim",
+  "ort": 113,
+  "raum": "Stadtmuseum Bad Dürkheim",
+  "typ": 7,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 6,
+  "stadt": "Bad Dürkheim",
+  "ort": 33,
+  "raum": "Mehrgenerationenhaus, Bad Dürkheim",
+  "typ": 1,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 7,
+  "stadt": "Bad Nauheim",
+  "ort": 97,
+  "raum": "Filmbühne Bad Nauheim",
+  "typ": 4,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-25"
+ },
+ {
+  "ver": 8,
+  "stadt": "Bad Nauheim",
+  "ort": 97,
+  "raum": "Filmbühne Bad Nauheim",
+  "typ": 4,
+  "titel": 97,
+  "film": "Kriegsmädchen",
+  "datum": "2026-10-25"
+ },
+ {
+  "ver": 9,
+  "stadt": "Bad Rodach",
+  "ort": 75,
+  "raum": "Grund- und Mittelschule Bad Rodach",
+  "typ": 2,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 10,
+  "stadt": "Bielefeld",
+  "ort": 9,
+  "raum": "Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-08"
+ },
+ {
+  "ver": 11,
+  "stadt": "Bielefeld",
+  "ort": 9,
+  "raum": "Wohncafé Quartier Sennestadt",
+  "typ": 3,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-08"
+ },
+ {
+  "ver": 12,
+  "stadt": "Bielefeld",
+  "ort": 9,
+  "raum": "Aktivitätenzentrum",
+  "typ": 6,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-10-09"
+ },
+ {
+  "ver": 13,
+  "stadt": "Bielefeld",
+  "ort": 9,
+  "raum": "Quartiersbüro Altenhagen",
+  "typ": 6,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 14,
+  "stadt": "Bielefeld",
+  "ort": 9,
+  "raum": "AWO Begegnungszentrum Oldentrup",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 15,
+  "stadt": "Birkenau",
+  "ort": 35,
+  "raum": "Gemeindeverwaltung",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-26"
+ },
+ {
+  "ver": 16,
+  "stadt": "Birkenau",
+  "ort": 35,
+  "raum": "Gemeindeverwaltung",
+  "typ": 6,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 17,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "Dorfgemeinschaftshaus OT Kleinbodungen",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 18,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "Kulturscheune Hue de Grais",
+  "typ": 6,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 19,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "Seniorenheim Glück auf",
+  "typ": 3,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 20,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "Kino",
+  "typ": 4,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 21,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "kath. Pfarrsaal",
+  "typ": 5,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 22,
+  "stadt": "Bleicherode",
+  "ort": 65,
+  "raum": "Dorfgemeinschaftshaus OT Obergebra",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 23,
+  "stadt": "Böblingen",
+  "ort": 114,
+  "raum": "Familienzentrum Paul-Gerhardt-Weg",
+  "typ": 6,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": null
+ },
+ {
+  "ver": 24,
+  "stadt": "Böhl-Iggelheim, Ortsteil Böhl",
+  "ort": 74,
+  "raum": "Männergesangverein 1856 Böhl e.V (MGV)",
+  "typ": 7,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 25,
+  "stadt": "Böhl-Iggelheim, Ortsteil Iggelheim",
+  "ort": 74,
+  "raum": "Sängervereinigung Iggelheim e.V.",
+  "typ": 7,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 26,
+  "stadt": "Bonn",
+  "ort": 27,
+  "raum": "Gemeindezentrum der Thomaskirche",
+  "typ": 5,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 27,
+  "stadt": "Bonn",
+  "ort": 27,
+  "raum": "Gemeindehaus der Johanniskirche",
+  "typ": 5,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 28,
+  "stadt": "Bonn",
+  "ort": 27,
+  "raum": "Gemeindehaus der Matthäikirche",
+  "typ": 5,
+  "titel": 79,
+  "film": "Mit Herz und Hund",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 29,
+  "stadt": "Bonn",
+  "ort": 27,
+  "raum": "Gemeindehaus der Auferstehungskirche",
+  "typ": 5,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 30,
+  "stadt": "Brieselang",
+  "ort": 36,
+  "raum": "Jugendclub \"Millennium\" Brieselang",
+  "typ": 2,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": "2026-10-10"
+ },
+ {
+  "ver": 31,
+  "stadt": "Brühl",
+  "ort": 37,
+  "raum": "Festhalle Brühl",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 32,
+  "stadt": "Buchen",
+  "ort": 115,
+  "raum": "Burghardt-Gymnasium Buchen",
+  "typ": 2,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-10-19"
+ },
+ {
+  "ver": 33,
+  "stadt": "Bühl",
+  "ort": 116,
+  "raum": "Bürger- und Kommunikationszentrum Weitenung",
+  "typ": 5,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 34,
+  "stadt": "Chemnitz",
+  "ort": 76,
+  "raum": "Mehrgenerationenhaus Chemnitz",
+  "typ": 1,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 35,
+  "stadt": "Dallgow-Döberitz Ortsteil Seeburg",
+  "ort": 38,
+  "raum": "FF in Seeburg",
+  "typ": 6,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 36,
+  "stadt": "Dannstadt-Schauernheim",
+  "ort": 144,
+  "raum": "Zentrum Alte Schule",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-09"
+ },
+ {
+  "ver": 37,
+  "stadt": "Dannstadt-Schauernheim",
+  "ort": 144,
+  "raum": "Zentrum Alte Schule",
+  "typ": 6,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 38,
+  "stadt": "Dannstadt-Schauernheim",
+  "ort": 144,
+  "raum": "Zentrum Alte Schule",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 39,
+  "stadt": "Dannstadt-Schauernheim",
+  "ort": 144,
+  "raum": "Zentrum Alte Schule",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 40,
+  "stadt": "Dannstadt-Schauernheim",
+  "ort": 144,
+  "raum": "Zentrum Alte Schule",
+  "typ": 6,
+  "titel": 99,
+  "film": "Checker Tobi 2 - Die Reise zu den fliegenden Flüssen",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 41,
+  "stadt": "Darmstadt",
+  "ort": 77,
+  "raum": "Mehrgenerationenhaus Darmstadt",
+  "typ": 1,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 42,
+  "stadt": "Darmstadt",
+  "ort": 77,
+  "raum": "Mehrgenerationenhaus Darmstadt",
+  "typ": 1,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 43,
+  "stadt": "Darmstadt",
+  "ort": 77,
+  "raum": "Mehrgenerationenhaus Darmstadt",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 44,
+  "stadt": "Dielheim",
+  "ort": 39,
+  "raum": "Rathaus Dielheim",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 45,
+  "stadt": "Dietzenbach",
+  "ort": 135,
+  "raum": "Kulturzentrum Capitol Dietzenbach",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 46,
+  "stadt": "Dietzenbach",
+  "ort": 135,
+  "raum": "Kulturzentrum Capitol Dietzenbach",
+  "typ": 6,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-30"
+ },
+ {
+  "ver": 47,
+  "stadt": "Ditzingen",
+  "ort": 1,
+  "raum": "evangelisches Gemeindehaus Ditzingen",
+  "typ": 5,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-09-25"
+ },
+ {
+  "ver": 48,
+  "stadt": "Ditzingen",
+  "ort": 1,
+  "raum": "St. Maria Ditzingen",
+  "typ": 5,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 49,
+  "stadt": "Ditzingen",
+  "ort": 1,
+  "raum": "St. Maria Ditzingen",
+  "typ": 5,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 50,
+  "stadt": "Ditzingen",
+  "ort": 1,
+  "raum": "ev. Gemeindehaus Ditzingen",
+  "typ": 5,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-11-27"
+ },
+ {
+  "ver": 51,
+  "stadt": "Dossenheim",
+  "ort": 40,
+  "raum": "Gemeinde Dossenheim",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 52,
+  "stadt": "Dossenheim",
+  "ort": 40,
+  "raum": "Gemeinde Dossenheim",
+  "typ": 6,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 53,
+  "stadt": "Dossenheim",
+  "ort": 40,
+  "raum": "Hannah und Simeon Heim",
+  "typ": 3,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 54,
+  "stadt": "Dreieich",
+  "ort": 73,
+  "raum": "Haus Falltorweg Treff der Generationen",
+  "typ": 1,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 55,
+  "stadt": "Dreieich",
+  "ort": 73,
+  "raum": "Bürgerverein Götzenhain e.V.",
+  "typ": 6,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 56,
+  "stadt": "Dreieich",
+  "ort": 73,
+  "raum": "Haus Falltorweg Treff der Generationen",
+  "typ": 1,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 57,
+  "stadt": "Dummerstorf",
+  "ort": 82,
+  "raum": "Mehrgenerationenhaus Dummerstorf",
+  "typ": 1,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-02"
+ },
+ {
+  "ver": 58,
+  "stadt": "Dummerstorf",
+  "ort": 82,
+  "raum": "Rathaus der Gemeinde Dummerstorf",
+  "typ": 6,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 59,
+  "stadt": "Eberbach",
+  "ort": 117,
+  "raum": "Lebensrad - Haus der Pflege",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-08"
+ },
+ {
+  "ver": 60,
+  "stadt": "Eberbach",
+  "ort": 117,
+  "raum": "Bistro Zur Insel",
+  "typ": 7,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-15"
+ },
+ {
+  "ver": 61,
+  "stadt": "Ellerstadt",
+  "ort": 22,
+  "raum": "Bürgerhaus Ellerstadt",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-14"
+ },
+ {
+  "ver": 62,
+  "stadt": "Emmendingen",
+  "ort": 137,
+  "raum": "Stadtteil- und Familienzentrum",
+  "typ": 6,
+  "titel": 99,
+  "film": "Checker Tobi 2 - Die Reise zu den fliegenden Flüssen",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 63,
+  "stadt": "Emmendingen",
+  "ort": 137,
+  "raum": "Stadtteil- und Familienzentrum",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 64,
+  "stadt": "Emmendingen",
+  "ort": 137,
+  "raum": "Stadtteil- und Familienzentrum",
+  "typ": 6,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-09"
+ },
+ {
+  "ver": 65,
+  "stadt": "Ense",
+  "ort": 41,
+  "raum": "Offener Treff Lindenhof",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 66,
+  "stadt": "Ense",
+  "ort": 41,
+  "raum": "Offener Treff Lindenhof",
+  "typ": 6,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 67,
+  "stadt": "Ense",
+  "ort": 41,
+  "raum": "Offener Treff Lindenhof",
+  "typ": 6,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 68,
+  "stadt": "Eppelheim",
+  "ort": 2,
+  "raum": "Rudolf-Wild-Halle, Eppelheim",
+  "typ": 6,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 69,
+  "stadt": "Eschwege",
+  "ort": 72,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 70,
+  "stadt": "Eschwege",
+  "ort": 72,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 71,
+  "stadt": "Essen",
+  "ort": 79,
+  "raum": "Mehrgenerationenhaus Essen",
+  "typ": 1,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-10-03"
+ },
+ {
+  "ver": 72,
+  "stadt": "Essen",
+  "ort": 79,
+  "raum": "Mehrgenerationenhaus Essen",
+  "typ": 1,
+  "titel": 99,
+  "film": "Checker Tobi 2 - Die Reise zu den fliegenden Flüssen",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 73,
+  "stadt": "Essen",
+  "ort": 79,
+  "raum": "Mehrgenerationenhaus Essen",
+  "typ": 1,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-27"
+ },
+ {
+  "ver": 74,
+  "stadt": "Falkensee",
+  "ort": 70,
+  "raum": "Volkshochschule Havelland  - Regionalstelle Falkensee",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 75,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Familiencafe Falkenhorst",
+  "typ": 6,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 76,
+  "stadt": "Falkensee",
+  "ort": 23,
+  "raum": "Kirche Finkenkrug",
+  "typ": 5,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 77,
+  "stadt": "Falkensee",
+  "ort": 118,
+  "raum": "Kulturhaus \"Johannes R.Becher\"",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 78,
+  "stadt": "Falkensee",
+  "ort": 70,
+  "raum": "Volkshochschule Havelland  - Regionalstelle Falkensee",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 79,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "ASB-Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-11-03"
+ },
+ {
+  "ver": 80,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Falkenhöher Seniorentreff",
+  "typ": 3,
+  "titel": 113,
+  "film": "Ein Tag ohne Frauen",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 81,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Büro Bündnis 90 - Die Grünen",
+  "typ": 7,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 82,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Familiencafe Falkenhorst",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 83,
+  "stadt": "Falkensee",
+  "ort": 23,
+  "raum": "Kirche Finkenkrug",
+  "typ": 5,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 84,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "ASB-Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 14,
+  "film": "Sein letztes Rennen",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 85,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "B-89",
+  "typ": 2,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 86,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Falkenhöher Seniorentreff",
+  "typ": 3,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 87,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "Büro Bündnis 90 - Die Grünen",
+  "typ": 7,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 88,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "B-89",
+  "typ": 2,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 89,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "",
+  "typ": null,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": null
+ },
+ {
+  "ver": 90,
+  "stadt": "Falkensee",
+  "ort": 109,
+  "raum": "",
+  "typ": null,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": null
+ },
+ {
+  "ver": 91,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "ASTOR Film Lounge MyZeil",
+  "typ": 1,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-02"
+ },
+ {
+  "ver": 92,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Frankfurt University of Applied Sciences",
+  "typ": 7,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-05"
+ },
+ {
+  "ver": 93,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Frankfurter Verband Behinderten- und Altenhilfe Café Anschluss",
+  "typ": 7,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 94,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "DFF – Deutsches Filminstitut & Filmmuseum",
+  "typ": 4,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 95,
+  "stadt": "Frankfurt am Main",
+  "ort": 3,
+  "raum": "Agaplesion Oberin Martha Keller Haus",
+  "typ": 3,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 96,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungs- und Servicezentrum Gallus",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-19"
+ },
+ {
+  "ver": 97,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Mehrgenerationenhaus Nachbarschaftszentrum Ostend",
+  "typ": 1,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-19"
+ },
+ {
+  "ver": 98,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "PAULINUM an der Friedberger Warte",
+  "typ": 6,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 99,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Interkultureller Treff OASI; Caritasverband Frankfurt e.V., Filmforum Höchst",
+  "typ": 6,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 100,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "LIBS e.V. (Lesben Informations- und Beratungsstelle e.V.)",
+  "typ": 7,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 101,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungs- und Servicezentrum Heddernheim",
+  "typ": 3,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 102,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Mehrgenerationenhaus Kinder im Zentrum Gallus e.V.",
+  "typ": 1,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-03"
+ },
+ {
+  "ver": 103,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "selbst e.V., Stadtbücherei Frankfurt, Zentralbibliothek",
+  "typ": 6,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 104,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "selbst e.V.",
+  "typ": 7,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 105,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Platen 80",
+  "typ": 7,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 106,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Evangelische Erwachsenbildung und Seniorenarbeit",
+  "typ": 7,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 107,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Bürgerinstitut e.V.",
+  "typ": 7,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 108,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungszentrum Flörsheimer Straße",
+  "typ": 3,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 109,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungs- und Servicezentrum Hofgut Goldstein",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 110,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "FrankfurterBehindertenArbeitsGemeinschaft (FBAG)",
+  "typ": 3,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 111,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungs- und Servicezentrum Rödelheim",
+  "typ": 3,
+  "titel": 95,
+  "film": "In voller Blüte",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 112,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Begegnungszentrum Ginnheim",
+  "typ": 3,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-11-17"
+ },
+ {
+  "ver": 113,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "AWO-Frankfurt August-Stunz-Zentrum",
+  "typ": 3,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 114,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "Malteser Hilfsdienst e.V., Gemeindesaal Frauenfrieden",
+  "typ": 3,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 115,
+  "stadt": "Frankfurt am Main",
+  "ort": 119,
+  "raum": "DFF – Deutsches Filminstitut & Filmmuseum",
+  "typ": 4,
+  "titel": 97,
+  "film": "Kriegsmädchen",
+  "datum": "2026-11-30"
+ },
+ {
+  "ver": 116,
+  "stadt": "Freiburg",
+  "ort": 64,
+  "raum": "Katholische Hochschule Freiburg, Raum 1207",
+  "typ": 7,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 117,
+  "stadt": "Freiburg",
+  "ort": 64,
+  "raum": "Katharinenstift Freiburg",
+  "typ": 3,
+  "titel": 79,
+  "film": "Mit Herz und Hund",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 118,
+  "stadt": "Freisbach",
+  "ort": 145,
+  "raum": "Sportheim",
+  "typ": 7,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 119,
+  "stadt": "Geislingen an der Steige",
+  "ort": 81,
+  "raum": "Mehrgenerationenhaus Geislingen",
+  "typ": 1,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 120,
+  "stadt": "Geislingen an der Steige",
+  "ort": 81,
+  "raum": "Mehrgenerationenhaus Geislingen",
+  "typ": 1,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 121,
+  "stadt": "Germering",
+  "ort": 93,
+  "raum": "MGH ZENJA Germering, Wohnzimmer der Generationen",
+  "typ": 1,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-10-26"
+ },
+ {
+  "ver": 122,
+  "stadt": "Germering",
+  "ort": 93,
+  "raum": "MGH ZENJA Germering, AWO Küche, 3. Stock",
+  "typ": 1,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 123,
+  "stadt": "Germering",
+  "ort": 93,
+  "raum": "MGH ZENJA Germering, Wohnzimmer der Generationen",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 124,
+  "stadt": "Germering",
+  "ort": 93,
+  "raum": "MGH ZENJA Germering, Wohnzimmer der Generationen",
+  "typ": 1,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-09"
+ },
+ {
+  "ver": 125,
+  "stadt": "Germersheim",
+  "ort": 102,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-12"
+ },
+ {
+  "ver": 126,
+  "stadt": "Germersheim",
+  "ort": 102,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 127,
+  "stadt": "Germersheim",
+  "ort": 16,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 128,
+  "stadt": "Germersheim",
+  "ort": 102,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 129,
+  "stadt": "Germersheim",
+  "ort": 102,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 130,
+  "stadt": "Germersheim",
+  "ort": 102,
+  "raum": "Bürgerhaus Germersheim",
+  "typ": 6,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 131,
+  "stadt": "Hamburg",
+  "ort": 17,
+  "raum": "LAB Groß Borstel",
+  "typ": 3,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-10-10"
+ },
+ {
+  "ver": 132,
+  "stadt": "Hamburg",
+  "ort": 68,
+  "raum": "Kulturhaus Eidelstedt",
+  "typ": 6,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-25"
+ },
+ {
+  "ver": 133,
+  "stadt": "Hamburg",
+  "ort": 17,
+  "raum": "LAB Eppendorf",
+  "typ": 3,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 134,
+  "stadt": "Hamburg",
+  "ort": 17,
+  "raum": "LAB Eppendorf",
+  "typ": 3,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 135,
+  "stadt": "Hamburg",
+  "ort": 78,
+  "raum": "Ev.-Luth. Kirchengemeinde in Schiffbek und Öjendorf",
+  "typ": 5,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 136,
+  "stadt": "Hamburg",
+  "ort": 17,
+  "raum": "ev. luth. Kirchengemeinde Niendorf (Hamburg)",
+  "typ": 5,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 137,
+  "stadt": "Hamburg",
+  "ort": 7,
+  "raum": "AWO-Treff Stellingen",
+  "typ": 3,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 138,
+  "stadt": "Hamburg",
+  "ort": 107,
+  "raum": "ReeWie-Haus",
+  "typ": 3,
+  "titel": 84,
+  "film": "Supernova",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 139,
+  "stadt": "Hamburg",
+  "ort": 17,
+  "raum": "LAB Groß Borstel",
+  "typ": 3,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 140,
+  "stadt": "Hamburg",
+  "ort": 7,
+  "raum": "AWO-Treff Horn",
+  "typ": 3,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-11-22"
+ },
+ {
+  "ver": 141,
+  "stadt": "Hamburg",
+  "ort": 8,
+  "raum": "AWO Aktiv Treff Winterhude",
+  "typ": 3,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-23"
+ },
+ {
+  "ver": 142,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Uentrop",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-10-05"
+ },
+ {
+  "ver": 143,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Norden",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 144,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Mitte",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 145,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Westen",
+  "typ": 6,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 146,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Pelkum",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 147,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Pelkum",
+  "typ": 6,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-09"
+ },
+ {
+  "ver": 148,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Herringen",
+  "typ": 6,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 149,
+  "stadt": "Hamm",
+  "ort": 120,
+  "raum": "Hamm Bockum Hövel",
+  "typ": 6,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-11-23"
+ },
+ {
+  "ver": 150,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Freizeitheim Vahrenwald",
+  "typ": null,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-10"
+ },
+ {
+  "ver": 151,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Stadtteilzentrum Stöcken",
+  "typ": 6,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-17"
+ },
+ {
+  "ver": 152,
+  "stadt": "Hannover",
+  "ort": 138,
+  "raum": "Stadtteilzentrum KroKus",
+  "typ": 6,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 153,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Kulturtreff Plantage",
+  "typ": 6,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 154,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Kulturgemeinschaft Vinnhorst",
+  "typ": 6,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 155,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Bürgerhaus Misburg",
+  "typ": 6,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 156,
+  "stadt": "Hannover",
+  "ort": 138,
+  "raum": "Jugendzentrum Kronsberg",
+  "typ": 2,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 157,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Stadtteilzentrum KroKuS",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-14"
+ },
+ {
+  "ver": 158,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Stadtteilzentrum Ricklingen",
+  "typ": 6,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-11-15"
+ },
+ {
+  "ver": 159,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Freizeitheim Linden",
+  "typ": 6,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-11-15"
+ },
+ {
+  "ver": 160,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Stadtteilzentrum Weiße Rose Mühlenberg",
+  "typ": 6,
+  "titel": 113,
+  "film": "Ein Tag ohne Frauen",
+  "datum": "2026-11-17"
+ },
+ {
+  "ver": 161,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Kulturtreff Bothfeld",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-24"
+ },
+ {
+  "ver": 162,
+  "stadt": "Hannover",
+  "ort": 69,
+  "raum": "Stadtteilzentrum Lister Turm",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 163,
+  "stadt": "Heddesheim",
+  "ort": 42,
+  "raum": "Bürgerhaus Heddesheim",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 164,
+  "stadt": "Heessen",
+  "ort": 120,
+  "raum": "Hamm Heessen",
+  "typ": 6,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-19"
+ },
+ {
+  "ver": 165,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Boxberg-Emmertsgrund",
+  "typ": 3,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 166,
+  "stadt": "Heidelberg",
+  "ort": 13,
+  "raum": "Haus der Begegnung",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 167,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Kirchheim",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 168,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Bergheim",
+  "typ": 3,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 169,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Altstadt",
+  "typ": 3,
+  "titel": 113,
+  "film": "Ein Tag ohne Frauen",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 170,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Neuenheim",
+  "typ": 3,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 171,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Ziegelhausen/Schlierbach",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 172,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Wieblingen",
+  "typ": 3,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 173,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Handschuhsheim",
+  "typ": 3,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 174,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Weststadt/Südstadt",
+  "typ": 3,
+  "titel": 95,
+  "film": "In voller Blüte",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 175,
+  "stadt": "Heidelberg",
+  "ort": 121,
+  "raum": "Seniorenzentrum Rohrbach",
+  "typ": 3,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-09"
+ },
+ {
+  "ver": 176,
+  "stadt": "Heidelberg",
+  "ort": 25,
+  "raum": "Gemeindehaus an der Friedenskirche",
+  "typ": 5,
+  "titel": 95,
+  "film": "In voller Blüte",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 177,
+  "stadt": "Heilbronn",
+  "ort": 101,
+  "raum": "Quartierszentrum Nordstadt - Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 178,
+  "stadt": "Hermeskeil",
+  "ort": 63,
+  "raum": "Mehrgenerationenhaus Hermeskeil",
+  "typ": 1,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 179,
+  "stadt": "Hermeskeil",
+  "ort": 63,
+  "raum": "Marienhaus Seniorenzentrum St. Klara",
+  "typ": 3,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 180,
+  "stadt": "Heusenstamm",
+  "ort": 139,
+  "raum": "Rathaus Heusenstamm",
+  "typ": 6,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-03"
+ },
+ {
+  "ver": 181,
+  "stadt": "Hillerse",
+  "ort": 84,
+  "raum": "Mehrgenerationenhaus Samtgemeinde Meinersen",
+  "typ": 1,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 182,
+  "stadt": "Hirschberg",
+  "ort": 30,
+  "raum": "Olympia-Kino",
+  "typ": 4,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-25"
+ },
+ {
+  "ver": 183,
+  "stadt": "Homburg",
+  "ort": 28,
+  "raum": "UKS Homburg",
+  "typ": 7,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 184,
+  "stadt": "Homburg",
+  "ort": 28,
+  "raum": "UKS Homburg",
+  "typ": 7,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 185,
+  "stadt": "Höxter",
+  "ort": 147,
+  "raum": "VHS Höxter-Marienmünster",
+  "typ": 7,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 186,
+  "stadt": "Ilvesheim",
+  "ort": 43,
+  "raum": "Gemeinde Ilvesheim",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 187,
+  "stadt": "Ilvesheim",
+  "ort": 43,
+  "raum": "Gemeinde Ilvesheim",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 188,
+  "stadt": "Ingelheim",
+  "ort": 83,
+  "raum": "Mehrgenerationenhaus Ingelheim",
+  "typ": 1,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 189,
+  "stadt": "Itzehoe",
+  "ort": 59,
+  "raum": "Kreisverwaltung Steinburg",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 190,
+  "stadt": "Jena",
+  "ort": 10,
+  "raum": "AWO Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 85,
+  "film": "Acht Geschwister",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 191,
+  "stadt": "Kandel",
+  "ort": 14,
+  "raum": "Stadthalle Kandel",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 192,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Kinder- und Familienzentrum Alb-Südwest St. Nikolaus",
+  "typ": 1,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-10-02"
+ },
+ {
+  "ver": 193,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "ev. Südkreuzgemeinde Karlsruhe",
+  "typ": 4,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-10-12"
+ },
+ {
+  "ver": 194,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Gartenstadt, Kifaz Rüppurr, Bürgergemeinschaft Rüppurr.",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-10-17"
+ },
+ {
+  "ver": 195,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Gartenstadt, Kifaz Rüppurr, Bürgergemeinschaft Rüppurr",
+  "typ": 6,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-17"
+ },
+ {
+  "ver": 196,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Quartiersprojekt Südweststadt und Fachstelle Leben im Alter",
+  "typ": 6,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 197,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "vhs Karlsruhe",
+  "typ": 7,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 198,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Stephanienbad,",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 199,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "ÖGZ, Sozial-Kulturelles Zentrum (SKO),",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 200,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Ernst-Reuter-Schule, SOPHIA Karlsruhe e.V.",
+  "typ": 2,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 201,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Luthergemeinde und Kulturküche Karlsruhe",
+  "typ": 4,
+  "titel": 30,
+  "film": "Song for Marion",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 202,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Hardtwaldzentrum",
+  "typ": 6,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 203,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Mehrgenerationenhaus Karlsruhe im",
+  "typ": 1,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-20"
+ },
+ {
+  "ver": 204,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Bürgerzentrum Daxlanden-Stadtteilhaus",
+  "typ": 6,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 205,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Bürgerzentrum Daxlanden-Stadtteilhaus,",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 206,
+  "stadt": "Karlsruhe",
+  "ort": 122,
+  "raum": "Kath. KiFaz , St. Peter und Paul Gemeinde, Quartiersprojekt AWO",
+  "typ": 5,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 207,
+  "stadt": "Karlsruhe Knielingen",
+  "ort": 122,
+  "raum": "Evangelische Gemeinde Knielingen, Fachstelle Leben im Alter",
+  "typ": 5,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-09"
+ },
+ {
+  "ver": 208,
+  "stadt": "Ketsch",
+  "ort": 44,
+  "raum": "Central Kino Ketsch",
+  "typ": 4,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 209,
+  "stadt": "Ketsch",
+  "ort": 44,
+  "raum": "Central Kino Ketsch",
+  "typ": 4,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 210,
+  "stadt": "Ketsch",
+  "ort": 44,
+  "raum": "Central Kino Ketsch",
+  "typ": 4,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 211,
+  "stadt": "Ketzin",
+  "ort": 15,
+  "raum": "Care Vita GmbH - Tagespflege - Seniorentreff",
+  "typ": 3,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 212,
+  "stadt": "Ketzin/Havel",
+  "ort": 123,
+  "raum": "Dorfgemeinschaftshaus Tremmen",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-17"
+ },
+ {
+  "ver": 213,
+  "stadt": "Ketzin/Havel",
+  "ort": 141,
+  "raum": "Paretz Akademie",
+  "typ": 7,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 214,
+  "stadt": "Köln",
+  "ort": 112,
+  "raum": "Soziales Zentrum Lino-Club e.V.",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 215,
+  "stadt": "Köln",
+  "ort": 71,
+  "raum": "Lebensräume in Balance eV",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 216,
+  "stadt": "Köln",
+  "ort": 71,
+  "raum": "Paula-Dürre-Haus",
+  "typ": 3,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 217,
+  "stadt": "Kronau",
+  "ort": 45,
+  "raum": "Pfarrheim Kronau",
+  "typ": 6,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-24"
+ },
+ {
+  "ver": 218,
+  "stadt": "Kronau",
+  "ort": 45,
+  "raum": "Pfarrheim Kronau",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-15"
+ },
+ {
+  "ver": 219,
+  "stadt": "Kuhardt",
+  "ort": 103,
+  "raum": "Rathaus Kuhardt",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 220,
+  "stadt": "Kusel",
+  "ort": 67,
+  "raum": "Kinett Kusel",
+  "typ": 3,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 221,
+  "stadt": "Ladenburg",
+  "ort": 124,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 113,
+  "film": "Ein Tag ohne Frauen",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 222,
+  "stadt": "Ladenburg",
+  "ort": 124,
+  "raum": "Großer Domhofsaal",
+  "typ": 6,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 223,
+  "stadt": "Ladenburg",
+  "ort": 124,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-27"
+ },
+ {
+  "ver": 224,
+  "stadt": "Landau",
+  "ort": 18,
+  "raum": "Diakonissen Bethesda Landau",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 225,
+  "stadt": "Landau",
+  "ort": 108,
+  "raum": "Diakonissen Bethesda Landau",
+  "typ": 3,
+  "titel": 95,
+  "film": "In voller Blüte",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 226,
+  "stadt": "Landau",
+  "ort": 18,
+  "raum": "Diakonissen Bethesda Landau",
+  "typ": 3,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 227,
+  "stadt": "Landsberg",
+  "ort": 142,
+  "raum": "Trägerwerk Soziale Dienste in Sachsen-Anhalt GmbH",
+  "typ": 3,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 228,
+  "stadt": "Landsberg am Lech",
+  "ort": 12,
+  "raum": "AWO-Mehrgenrationenhaus Landsberg am Lech,",
+  "typ": 3,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-10-31"
+ },
+ {
+  "ver": 229,
+  "stadt": "Landsberg am Lech",
+  "ort": 12,
+  "raum": "AWO-Mehrgenrationenhaus Landsberg am Lech,",
+  "typ": 3,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 230,
+  "stadt": "Landsberg am Lech",
+  "ort": 12,
+  "raum": "AWO-Mehrgenrationenhaus Landsberg am Lech,",
+  "typ": 3,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-11-14"
+ },
+ {
+  "ver": 231,
+  "stadt": "Leiferde",
+  "ort": 84,
+  "raum": "Mehrgenerationenhaus Samtgemeinde Meinersen",
+  "typ": 1,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 232,
+  "stadt": "Leimen",
+  "ort": 125,
+  "raum": "Dr. Ulla-Schirmer-Haus",
+  "typ": 3,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 233,
+  "stadt": "Leimen",
+  "ort": 125,
+  "raum": "Bürgerhaus am alten Stadttor / Rosensaal",
+  "typ": 6,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 234,
+  "stadt": "Leimen",
+  "ort": 125,
+  "raum": "Bürgerhaus am alten Stadttor / Rosensaal",
+  "typ": 6,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 235,
+  "stadt": "Leimen",
+  "ort": 125,
+  "raum": "Dr. Ulla-Schirmer-Haus",
+  "typ": 3,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 236,
+  "stadt": "Leimen",
+  "ort": 125,
+  "raum": "Bürgerhaus am alten Stadttor / Rosensaal",
+  "typ": 6,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-11-25"
+ },
+ {
+  "ver": 237,
+  "stadt": "Leonberg",
+  "ort": 126,
+  "raum": "Kinder- und Jugendhaus Eltingen",
+  "typ": 2,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-11-17"
+ },
+ {
+  "ver": 238,
+  "stadt": "Leverkusen",
+  "ort": 24,
+  "raum": "Ev. Kirchengemeinde Steinbüchel",
+  "typ": 5,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 239,
+  "stadt": "Leverkusen",
+  "ort": 24,
+  "raum": "Ev. Kirchengemeinde Leverkusen-Steinbüchel",
+  "typ": 5,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 240,
+  "stadt": "Lingenfeld",
+  "ort": 145,
+  "raum": "Goldberghalle",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 241,
+  "stadt": "Ludwigshafen am Rhein",
+  "ort": 100,
+  "raum": "Jakobuskirche Oggersheim",
+  "typ": 5,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 242,
+  "stadt": "Ludwigshafen am Rhein",
+  "ort": 148,
+  "raum": "Volkshochschule Ludwigshafen",
+  "typ": 7,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-11-03"
+ },
+ {
+  "ver": 243,
+  "stadt": "Ludwigshafen Oggersheim",
+  "ort": 100,
+  "raum": "Evangelisches Gemeindehaus Dalberg",
+  "typ": 5,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 244,
+  "stadt": "Ludwigshafen-West",
+  "ort": 90,
+  "raum": "Mehrgenerationenhaus und Haus der Familie im Haus der Diakonie Ludwigshafen",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-16"
+ },
+ {
+  "ver": 245,
+  "stadt": "Malsch",
+  "ort": 46,
+  "raum": "Gemeindeverwaltung Malsch",
+  "typ": 6,
+  "titel": 50,
+  "film": "Menachem und Fred - Wiedersehen in Hoffenheim",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 246,
+  "stadt": "Mannheim",
+  "ort": 98,
+  "raum": "Ökumenisches Bildungszentrum sanctclara",
+  "typ": 5,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 247,
+  "stadt": "Mannheim",
+  "ort": 58,
+  "raum": "Generationen Treff Rheinau Mannheim",
+  "typ": 1,
+  "titel": 26,
+  "film": "Monsieur Pierre geht online",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 248,
+  "stadt": "Mannheim",
+  "ort": 58,
+  "raum": "Generationen Treff Rheinau Mannheim",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 249,
+  "stadt": "Mannheim",
+  "ort": 110,
+  "raum": "CaFEH (Café Fritz-Esser-Haus), AWO Kreisverband Mannheim e.V.",
+  "typ": 3,
+  "titel": 30,
+  "film": "Song for Marion",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 250,
+  "stadt": "Mannheim",
+  "ort": 98,
+  "raum": "Ökumenisches Bildungszentrum sanctclara",
+  "typ": 5,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 251,
+  "stadt": "Mauer",
+  "ort": 47,
+  "raum": "Paul-Gerhardt-Haus",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 252,
+  "stadt": "Meckenheim",
+  "ort": 27,
+  "raum": "Friedenskirche Meckenheim",
+  "typ": 5,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 253,
+  "stadt": "Meckesheim",
+  "ort": 48,
+  "raum": "Evangelischer Kindergarten",
+  "typ": 2,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 254,
+  "stadt": "Meckesheim",
+  "ort": 48,
+  "raum": "Evangelischer Kindergarten",
+  "typ": 2,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 255,
+  "stadt": "Meinersen",
+  "ort": 84,
+  "raum": "Mehrgenerationenhaus Samtgemeinde Meinersen",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 256,
+  "stadt": "Mertesdorf",
+  "ort": 94,
+  "raum": "Bürgerhaus Mertesdorf",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 257,
+  "stadt": "Merzig",
+  "ort": 111,
+  "raum": "Mehrgenerationenhaus Merzig",
+  "typ": 1,
+  "titel": 20,
+  "film": "Die Herbstzeitlosen",
+  "datum": "2026-10-09"
+ },
+ {
+  "ver": 258,
+  "stadt": "Milower Land Ortsteil Jerchel",
+  "ort": 49,
+  "raum": "Dorfgemeinschaftshaus Jerchel",
+  "typ": 6,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 259,
+  "stadt": "Milower Land Ortsteil Milow",
+  "ort": 105,
+  "raum": "Dorfgemeinschaftshaus Milow",
+  "typ": 6,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 260,
+  "stadt": "Moers",
+  "ort": 60,
+  "raum": "Haus der Demokratiegeschichte im Alten Landratsamt",
+  "typ": 7,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 261,
+  "stadt": "Moers",
+  "ort": 60,
+  "raum": "Haus der Demokratiegeschichte im Alten Landratsamt",
+  "typ": 7,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 262,
+  "stadt": "Mörlenbach",
+  "ort": 50,
+  "raum": "Bürgerhaus Mörlenbach",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 263,
+  "stadt": "Mörlenbach",
+  "ort": 50,
+  "raum": "Bürgerhaus Mörlenbach",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 264,
+  "stadt": "Müden (Aller)",
+  "ort": 84,
+  "raum": "Mehrgenerationenhaus Samtgemeinde Meinersen",
+  "typ": 1,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 265,
+  "stadt": "Müden (Aller)",
+  "ort": 84,
+  "raum": "Mehrgenerationenhaus Samtgemeinde Meinersen",
+  "typ": 1,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-17"
+ },
+ {
+  "ver": 266,
+  "stadt": "Mühlhausen/Thüringen",
+  "ort": 85,
+  "raum": "Mehrgenerationenhaus Mühlhausen/Thüringen",
+  "typ": 1,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-10-02"
+ },
+ {
+  "ver": 267,
+  "stadt": "Mutterstadt",
+  "ort": 51,
+  "raum": "Palatinum Mutterstadt",
+  "typ": 6,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 268,
+  "stadt": "Mutterstadt",
+  "ort": 51,
+  "raum": "Palatinum Mutterstadt",
+  "typ": 6,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 269,
+  "stadt": "Mutterstadt",
+  "ort": 51,
+  "raum": "Palatinum Mutterstadt",
+  "typ": 6,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 270,
+  "stadt": "Nauen",
+  "ort": 127,
+  "raum": "Richart - Hof",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 271,
+  "stadt": "Nauen OT Börnicke",
+  "ort": 21,
+  "raum": "Freiwillige Feuerwehr Börnicke",
+  "typ": 7,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 272,
+  "stadt": "Nauen OT Börnicke",
+  "ort": 21,
+  "raum": "Freiwillige Feuerwehr Börnicke",
+  "typ": 7,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-31"
+ },
+ {
+  "ver": 273,
+  "stadt": "Nauen OT Wachow",
+  "ort": 19,
+  "raum": "Gemeindehaus der Kirche Wachow",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 274,
+  "stadt": "Neuhütten - Muhl",
+  "ort": 63,
+  "raum": "Nationalparkkirche Muhl",
+  "typ": 5,
+  "titel": 66,
+  "film": "Romys Salon",
+  "datum": "2026-11-15"
+ },
+ {
+  "ver": 275,
+  "stadt": "Neumarkt i.d.OPf.",
+  "ort": 95,
+  "raum": "Bürgerhaus Stadt Neumarkt i.d.OPf.",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 276,
+  "stadt": "Neumarkt i.d.OPf.",
+  "ort": 95,
+  "raum": "Bürgerhaus Stadt Neumarkt i.d.OPf.",
+  "typ": 6,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": "2026-10-08"
+ },
+ {
+  "ver": 277,
+  "stadt": "Neumarkt i.d.OPf.",
+  "ort": 95,
+  "raum": "Bürgerhaus Stadt Neumarkt i.d.OPf.",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 278,
+  "stadt": "Oberzent - Beerfelden",
+  "ort": 62,
+  "raum": "Stadt Beerfelden",
+  "typ": 6,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-17"
+ },
+ {
+  "ver": 279,
+  "stadt": "Oberzent - Beerfelden",
+  "ort": 62,
+  "raum": "Stadt Oberzent",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-12"
+ },
+ {
+  "ver": 280,
+  "stadt": "Öhringen",
+  "ort": 31,
+  "raum": "Seniorentreff Haus an der Walk",
+  "typ": 3,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 281,
+  "stadt": "Olpe",
+  "ort": 20,
+  "raum": "DRK Mehrgenerationenhaus Olpe",
+  "typ": 1,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 282,
+  "stadt": "Osterholz-Scharmbeck",
+  "ort": 104,
+  "raum": "Seniorenbegegnungsstätte",
+  "typ": 3,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 283,
+  "stadt": "Östringen",
+  "ort": 128,
+  "raum": "",
+  "typ": null,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": null
+ },
+ {
+  "ver": 284,
+  "stadt": "Paulinenaue",
+  "ort": 99,
+  "raum": "Freiwillige Feuerwehr Paulinenaue",
+  "typ": 7,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 285,
+  "stadt": "Paulinenaue",
+  "ort": 99,
+  "raum": "Freiwillige Feuerwehr Paulinenaue",
+  "typ": 7,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 286,
+  "stadt": "Pirna",
+  "ort": 6,
+  "raum": "ATZE e.V.",
+  "typ": 7,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": "2026-11-11"
+ },
+ {
+  "ver": 287,
+  "stadt": "Pirna",
+  "ort": 6,
+  "raum": "ATZE e.V.",
+  "typ": 7,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 288,
+  "stadt": "Pirna",
+  "ort": 6,
+  "raum": "ATZE e.V.",
+  "typ": 7,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-11-06"
+ },
+ {
+  "ver": 289,
+  "stadt": "Rauenberg",
+  "ort": 129,
+  "raum": "Kulturhalle Rauenberg",
+  "typ": 6,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-10-18"
+ },
+ {
+  "ver": 290,
+  "stadt": "Reichartshausen",
+  "ort": 52,
+  "raum": "Rathaus Reichartshausen",
+  "typ": 6,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 291,
+  "stadt": "Rhinow",
+  "ort": 11,
+  "raum": "AWO Ortsverein Rhinow e.V.",
+  "typ": 3,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 292,
+  "stadt": "Rhinow",
+  "ort": 11,
+  "raum": "AWO Ortsverein Rhinow e.V.",
+  "typ": 3,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 293,
+  "stadt": "Ringheim",
+  "ort": 96,
+  "raum": "MOSAIK Mehrgenerationenhaus Bachgau",
+  "typ": 1,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-08"
+ },
+ {
+  "ver": 294,
+  "stadt": "Ringheim",
+  "ort": 96,
+  "raum": "MOSAIK Mehrgenerationenhaus Bachgau",
+  "typ": 1,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-10-09"
+ },
+ {
+  "ver": 295,
+  "stadt": "Rödermark",
+  "ort": 130,
+  "raum": "MGH SchillerHaus",
+  "typ": 1,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 296,
+  "stadt": "Rödermark",
+  "ort": 130,
+  "raum": "Bürgertreff Waldacker",
+  "typ": 6,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 297,
+  "stadt": "Römerberg",
+  "ort": 53,
+  "raum": "Pfarrheim Heiligenstein",
+  "typ": 5,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-05"
+ },
+ {
+  "ver": 298,
+  "stadt": "Römerberg",
+  "ort": 53,
+  "raum": "Zehnthaus Berghausen",
+  "typ": 6,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 299,
+  "stadt": "Römerberg",
+  "ort": 53,
+  "raum": "Zehnthaus Berghausen",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 300,
+  "stadt": "Roßleben-Wiehe",
+  "ort": 66,
+  "raum": "Mehrgenerationenhaus Roßleben im Bürgerzentrum",
+  "typ": 1,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 301,
+  "stadt": "Rülzheim",
+  "ort": 146,
+  "raum": "Centrum für Kunst und Kultur",
+  "typ": 6,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-10-01"
+ },
+ {
+  "ver": 302,
+  "stadt": "Rülzheim",
+  "ort": 146,
+  "raum": "Centrum für Kunst und Kultur",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 303,
+  "stadt": "Salzgitter",
+  "ort": 87,
+  "raum": "SOS Mütterzentrum Salzgitter Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-08"
+ },
+ {
+  "ver": 304,
+  "stadt": "Sandhausen",
+  "ort": 54,
+  "raum": "Bibliothek",
+  "typ": 7,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 305,
+  "stadt": "Schifferstadt",
+  "ort": 131,
+  "raum": "Rex Kino Center Schifferstadt",
+  "typ": 4,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 306,
+  "stadt": "Schönbrunn",
+  "ort": 55,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 307,
+  "stadt": "Schönbrunn",
+  "ort": 55,
+  "raum": "Rathaus",
+  "typ": 6,
+  "titel": 90,
+  "film": "Vier Wände für Zwei",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 308,
+  "stadt": "Schönwalde-Glien",
+  "ort": 32,
+  "raum": "Dorfgemeinschaftshaus",
+  "typ": 6,
+  "titel": 14,
+  "film": "Sein letztes Rennen",
+  "datum": "2026-11-07"
+ },
+ {
+  "ver": 309,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Begegnungszentrum Connect",
+  "typ": 6,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-10-15"
+ },
+ {
+  "ver": 310,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Rathaus, Großer Sitzungssaal",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-11-16"
+ },
+ {
+  "ver": 311,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Rathaus, Großer Sitzungssaal",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-16"
+ },
+ {
+  "ver": 312,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Treffpunkt Familie / St. Markus",
+  "typ": 6,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-24"
+ },
+ {
+  "ver": 313,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Familienzentrum",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-11-30"
+ },
+ {
+  "ver": 314,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "Dorfgemeinschaft Paule",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-10"
+ },
+ {
+  "ver": 315,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "",
+  "typ": null,
+  "titel": 92,
+  "film": "Checker Tobi 1 - Das Geheimnis unseres Planeten",
+  "datum": null
+ },
+ {
+  "ver": 316,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "",
+  "typ": null,
+  "titel": 112,
+  "film": "Ein kleines Stück vom Kuchen",
+  "datum": null
+ },
+ {
+  "ver": 317,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "",
+  "typ": null,
+  "titel": 101,
+  "film": "Fanni - oder: Wie rettet man ein Wirtshaus?",
+  "datum": null
+ },
+ {
+  "ver": 318,
+  "stadt": "Schorndorf",
+  "ort": 80,
+  "raum": "",
+  "typ": null,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": null
+ },
+ {
+  "ver": 319,
+  "stadt": "Schwaan",
+  "ort": 88,
+  "raum": "Mehrgenerationenhaus Schwaan",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-10-20"
+ },
+ {
+  "ver": 320,
+  "stadt": "Schwegenheim",
+  "ort": 145,
+  "raum": "Dorfgemeinschaftshaus",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 321,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 101,
+  "film": "Fanni - oder: Wie rettet man ein Wirtshaus?",
+  "datum": "2026-10-07"
+ },
+ {
+  "ver": 322,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 323,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-10-21"
+ },
+ {
+  "ver": 324,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 99,
+  "film": "Checker Tobi 2 - Die Reise zu den fliegenden Flüssen",
+  "datum": "2026-10-28"
+ },
+ {
+  "ver": 325,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-29"
+ },
+ {
+  "ver": 326,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 6,
+  "film": "Die Schüler der Madame Anne",
+  "datum": "2026-11-04"
+ },
+ {
+  "ver": 327,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 97,
+  "film": "Kriegsmädchen",
+  "datum": "2026-11-19"
+ },
+ {
+  "ver": 328,
+  "stadt": "Sebnitz",
+  "ort": 4,
+  "raum": "Ladenlokal",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-11-25"
+ },
+ {
+  "ver": 329,
+  "stadt": "Selm",
+  "ort": 29,
+  "raum": "Bürgerhaus Selm",
+  "typ": 6,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-18"
+ },
+ {
+  "ver": 330,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Waldangelloch Aktiv",
+  "typ": 6,
+  "titel": 116,
+  "film": "Max und die Wilde 7 – Die Geister-Oma",
+  "datum": "2026-10-16"
+ },
+ {
+  "ver": 331,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Waldangelloch Aktiv   Sinsheim Deutschland",
+  "typ": 6,
+  "titel": 84,
+  "film": "Supernova",
+  "datum": "2026-10-18"
+ },
+ {
+  "ver": 332,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim Werderstraße 7 Sinsheim",
+  "typ": 5,
+  "titel": 94,
+  "film": "Heaven Can Wait - Wir leben jetzt",
+  "datum": "2026-11-23"
+ },
+ {
+  "ver": 333,
+  "stadt": "Zehdenick",
+  "ort": 5,
+  "raum": "Mehrgenerationenhaus \"Zehdenicker Bienenstock\"",
+  "typ": 1,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 334,
+  "stadt": "Zehdenick",
+  "ort": 5,
+  "raum": "Mehrgenerationenhaus \"Zehdenicker Bienenstock\"",
+  "typ": 1,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 335,
+  "stadt": "Troisdorf Oberlar",
+  "ort": 26,
+  "raum": "Evangelische Friedenskirchengemeinde Troisdorf",
+  "typ": 5,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-13"
+ },
+ {
+  "ver": 336,
+  "stadt": "Troisdorf Oberlar",
+  "ort": 26,
+  "raum": "Evangelische Friedenskirchengemeinde Troisdorf",
+  "typ": 5,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-21"
+ },
+ {
+  "ver": 337,
+  "stadt": "St. Leon-Rot",
+  "ort": 56,
+  "raum": "Pfarrsaal kath. Kirche St. Leon",
+  "typ": 5,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-12"
+ },
+ {
+  "ver": 338,
+  "stadt": "Waldbrunn",
+  "ort": 57,
+  "raum": "Gemeinde Waldbrunn, Rathaus",
+  "typ": 6,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-10-26"
+ },
+ {
+  "ver": 339,
+  "stadt": "Waldbrunn",
+  "ort": 57,
+  "raum": "Gemeinde Waldbrunn, Rathaus",
+  "typ": 6,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-26"
+ },
+ {
+  "ver": 340,
+  "stadt": "Tübingen",
+  "ort": 61,
+  "raum": "Aula des Uhland-Gymnasiums",
+  "typ": 2,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-10-08"
+ },
+ {
+  "ver": 341,
+  "stadt": "Waldkirch",
+  "ort": 86,
+  "raum": "Mehrgenerationenhaus Rotes Haus",
+  "typ": 1,
+  "titel": 53,
+  "film": "Britt-Marie war hier",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 342,
+  "stadt": "Übach-Palenberg",
+  "ort": 89,
+  "raum": "Jugendzentrum im Mehrgenerationenhaus der Stadt Übach-Palenberg",
+  "typ": 1,
+  "titel": 98,
+  "film": "Auf Augenhöhe",
+  "datum": "2026-10-12"
+ },
+ {
+  "ver": 343,
+  "stadt": "Übach-Palenberg",
+  "ort": 89,
+  "raum": "Mehrgenerationenhaus der Stadt Übach-Palenberg",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-09"
+ },
+ {
+  "ver": 344,
+  "stadt": "Übach-Palenberg",
+  "ort": 89,
+  "raum": "Mehrgenerationenhaus der Stadt Übach-Palenberg",
+  "typ": 1,
+  "titel": 100,
+  "film": "Die Unbeugsamen 2 – Guten Morgen, Ihr Schönen!",
+  "datum": "2026-11-23"
+ },
+ {
+  "ver": 345,
+  "stadt": "Weimar",
+  "ort": 91,
+  "raum": "Aula der Grundschule Schöndorf",
+  "typ": 2,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-17"
+ },
+ {
+  "ver": 346,
+  "stadt": "Wildenfels",
+  "ort": 92,
+  "raum": "Mehrgenerationenhaus Wildenfels",
+  "typ": 1,
+  "titel": 114,
+  "film": "Es sind die kleinen Dinge",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 347,
+  "stadt": "Walzbachtal",
+  "ort": 106,
+  "raum": "Seniorenbeirat Walzbachtal",
+  "typ": 3,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 348,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim",
+  "typ": 5,
+  "titel": 89,
+  "film": "Oben",
+  "datum": "2026-11-24"
+ },
+ {
+  "ver": 349,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim",
+  "typ": 5,
+  "titel": 88,
+  "film": "Kalender Girls",
+  "datum": "2026-11-25"
+ },
+ {
+  "ver": 350,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim",
+  "typ": 5,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 351,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim",
+  "typ": 5,
+  "titel": 73,
+  "film": "Enkel für Anfänger",
+  "datum": "2026-11-27"
+ },
+ {
+  "ver": 352,
+  "stadt": "Sinsheim",
+  "ort": 132,
+  "raum": "Familienzentrum der Ev. Kirchengemeinde Sinsheim",
+  "typ": 5,
+  "titel": 106,
+  "film": "Was ist schon normal?",
+  "datum": "2026-11-28"
+ },
+ {
+  "ver": 353,
+  "stadt": "Waghäusel",
+  "ort": 133,
+  "raum": "Treffpunkt WaWiKi",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-06"
+ },
+ {
+  "ver": 354,
+  "stadt": "Waghäusel",
+  "ort": 133,
+  "raum": "Treffpunkt WaWiKi",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 355,
+  "stadt": "Waghäusel",
+  "ort": 133,
+  "raum": "Treffpunkt WaWiKi",
+  "typ": 6,
+  "titel": 63,
+  "film": "Dancing Queens",
+  "datum": "2026-11-26"
+ },
+ {
+  "ver": 356,
+  "stadt": "Wunstorf",
+  "ort": 134,
+  "raum": "Mehrgenerationenhaus \"Haus der Vielfalt\"",
+  "typ": 1,
+  "titel": 84,
+  "film": "Supernova",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 357,
+  "stadt": "Wunstorf",
+  "ort": 134,
+  "raum": "Mehrgenerationenhaus \"Haus der Vielfalt\"",
+  "typ": 1,
+  "titel": 30,
+  "film": "Song for Marion",
+  "datum": "2026-10-30"
+ },
+ {
+  "ver": 358,
+  "stadt": "Wunstorf",
+  "ort": 134,
+  "raum": "Städtische Familien- und Seniorenbegegnungsstätte",
+  "typ": 3,
+  "titel": 97,
+  "film": "Kriegsmädchen",
+  "datum": "2026-11-13"
+ },
+ {
+  "ver": 359,
+  "stadt": "Wiesloch",
+  "ort": 136,
+  "raum": "Volksbank Kraichgau",
+  "typ": 7,
+  "titel": 104,
+  "film": "Toni und Helene",
+  "datum": "2026-10-05"
+ },
+ {
+  "ver": 360,
+  "stadt": "Worms",
+  "ort": 140,
+  "raum": "Stadtbibliothek Worms",
+  "typ": 7,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 361,
+  "stadt": "Worms",
+  "ort": 140,
+  "raum": "Internetcafé \"Silver-Surfer\"",
+  "typ": 3,
+  "titel": 95,
+  "film": "In voller Blüte",
+  "datum": "2026-11-24"
+ },
+ {
+  "ver": 362,
+  "stadt": "Westheim",
+  "ort": 145,
+  "raum": "Bürgerhaus",
+  "typ": 6,
+  "titel": 7,
+  "film": "Ein Mann namens Ove",
+  "datum": "2026-11-05"
+ },
+ {
+  "ver": 363,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Villa Ecarius",
+  "typ": 6,
+  "titel": 84,
+  "film": "Supernova",
+  "datum": "2026-10-05"
+ },
+ {
+  "ver": 364,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Villa Ecarius",
+  "typ": 6,
+  "titel": 96,
+  "film": "Im Taxi mit Madeleine",
+  "datum": "2026-10-06"
+ },
+ {
+  "ver": 365,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Alter Stadtsaal",
+  "typ": 6,
+  "titel": 110,
+  "film": "Cloudburst",
+  "datum": "2026-10-14"
+ },
+ {
+  "ver": 366,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Mehrgenerationenhaus",
+  "typ": 1,
+  "titel": 108,
+  "film": "Bon Voyage - Bis hierher und noch weiter",
+  "datum": "2026-10-22"
+ },
+ {
+  "ver": 367,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Villa Ecarius",
+  "typ": 6,
+  "titel": 109,
+  "film": "Checker Tobi 3 - Die heimliche Herrscherin der Erde",
+  "datum": "2026-10-23"
+ },
+ {
+  "ver": 368,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Sankt Vincentius Krankenhaus",
+  "typ": 7,
+  "titel": 115,
+  "film": "Heldin",
+  "datum": "2026-10-26"
+ },
+ {
+  "ver": 369,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Villa Ecarius",
+  "typ": 6,
+  "titel": 111,
+  "film": "Die Ironie des Lebens",
+  "datum": "2026-10-27"
+ },
+ {
+  "ver": 370,
+  "stadt": "Speyer",
+  "ort": 149,
+  "raum": "Villa Ecarius",
+  "typ": 6,
+  "titel": 107,
+  "film": "All Inclusive",
+  "datum": "2026-10-29"
+ }
+]
