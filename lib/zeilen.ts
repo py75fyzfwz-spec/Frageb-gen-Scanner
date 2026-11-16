@@ -82,23 +82,13 @@ export function zeileBauen(
   let novize: number | null = e.novize === "ja" ? 1 : e.novize === "nein" ? 0 : null;
   let freq: number | null = zahl(e.freq);
   if (novize === 1) {
-    if (freq != null && freq > 1) {
-      pruefen.add("novize");
-      pruefen.add("freq");
-      hinweise.push(`"Ja" angekreuzt, aber Zahl ${freq} eingetragen.`);
-    }
     freq = 1;
   } else if (novize === null && freq != null) {
     // Nur eine Zahl auf der Linie: wie bei der Handeingabe als "Nein" werten
     novize = 0;
   }
-  if (novize === 0 && freq === 1) {
-    // "bereits zum 1. Mal" ist widersprüchlich zu "Nein, nicht zum ersten Mal"
-    pruefen.add("novize");
-    pruefen.add("freq");
-    hinweise.push('"Nein" (nicht zum ersten Mal), aber Zahl 1 eingetragen.');
-  }
-  if (freq != null && (freq < 1 || freq > 30)) pruefen.add("freq");
+  // Was nicht ins Format passt, bleibt leer (wird ohnehin nicht ausgewertet)
+  if (freq != null && (freq < 1 || freq > 30)) freq = null;
 
   const wieder = e.wieder === "ja" ? 1 : e.wieder === "nein" ? 0 : null;
   let nwieder = e.nwieder.trim();
@@ -109,16 +99,10 @@ export function zeileBauen(
     nwieder = "";
   }
 
-  const age = zahl(e.age);
-  if (age != null && (age < 3 || age > 105)) pruefen.add("age");
-  if (e.age && age == null) pruefen.add("age");
+  let age = /^\s*\d{1,3}\s*(jahre?)?\s*$/i.test(e.age) ? zahl(e.age) : null;
+  if (age != null && (age < 3 || age > 105)) age = null;
 
-  let sex: number | null = e.sex === "mann" ? 1 : e.sex === "frau" ? 2 : null;
-  if (e.sex === "anderes") {
-    pruefen.add("sex");
-    hinweise.push("Geschlecht: weder m noch w angegeben.");
-    sex = null;
-  }
+  const sex: number | null = e.sex === "mann" ? 1 : e.sex === "frau" ? 2 : null;
 
   const datum = v?.datum ? new Date(v.datum + "T00:00:00Z") : null;
 
