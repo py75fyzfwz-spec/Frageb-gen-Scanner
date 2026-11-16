@@ -16,7 +16,20 @@ async function base64(blob: Blob): Promise<string> {
 }
 
 export const SCHLUESSEL_SPEICHER = "fragebogen-api-key";
-const MODEL = "claude-opus-5-5";
+export const MODELL_SPEICHER = "fragebogen-modell";
+export const MODELLE = [
+  { id: "claude-opus-5-5", name: "Opus 5.5 (genaueste, ca. 2 Cent pro Bogen)" },
+  { id: "claude-sonnet-5-5", name: "Sonnet 5.5 (ca. 1 Cent pro Bogen)" },
+  { id: "claude-haiku-5-5", name: "Haiku 5.5 (günstigste, unter 0,1 Cent pro Bogen)" },
+];
+function modell(): string {
+  try {
+    const m = localStorage.getItem(MODELL_SPEICHER);
+    return MODELLE.some((x) => x.id === m) ? m! : MODELLE[0].id;
+  } catch {
+    return MODELLE[0].id;
+  }
+}
 
 export function schluessel(): string {
   try {
@@ -66,7 +79,7 @@ export async function direktApi(url: string, init?: RequestInit): Promise<Respon
       }
       try {
         const msg = await client().beta.messages.create({
-          ...baueAnfrage({ base64: daten }, MODEL, "low"),
+          ...baueAnfrage({ base64: daten }, modell(), "low"),
           betas: ["server-side-fallback-2026-07-01"],
           fallbacks: "default",
         });

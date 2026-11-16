@@ -7,7 +7,7 @@ import { excelBauen } from "@/lib/excel";
 import { type SeitenQuelle, seitenAuflisten } from "@/lib/seiten";
 import { SPALTEN, type Uebersprungen, type Zeile, zeileBauen } from "@/lib/zeilen";
 import { type Veranstaltung, veranstaltungText } from "@/lib/zuordnung";
-import { direktApi, SCHLUESSEL_SPEICHER, schluessel } from "@/lib/direkt";
+import { direktApi, MODELL_SPEICHER, MODELLE, SCHLUESSEL_SPEICHER, schluessel } from "@/lib/direkt";
 
 /** GitHub-Pages-Version: kein Server, Aufrufe gehen direkt vom Browser an Claude. */
 const NUR_BROWSER = process.env.NEXT_PUBLIC_NUR_BROWSER === "1";
@@ -548,10 +548,19 @@ export default function Startseite() {
 function SchluesselKarte() {
   const [wert, setWert] = useState("");
   const [gespeichert, setGespeichert] = useState(false);
-  useEffect(() => setGespeichert(!!schluessel()), []);
+  const [modell, setModell] = useState(MODELLE[0].id);
+  useEffect(() => {
+    setGespeichert(!!schluessel());
+    try { setModell(localStorage.getItem(MODELL_SPEICHER) || MODELLE[0].id); } catch {}
+  }, []);
   return (
     <section className="karte">
-      <h2>API-Schlüssel</h2>
+      <h2>API-Schlüssel und Modell</h2>
+      <label htmlFor="modell" style={{ marginTop: 0 }}>Modell</label>
+      <select id="modell" value={modell} style={{ marginBottom: 12 }}
+        onChange={(e) => { setModell(e.target.value); try { localStorage.setItem(MODELL_SPEICHER, e.target.value); } catch {} }}>
+        {MODELLE.map((m) => <option key={m.id} value={m.id}>{m.name}</option>)}
+      </select>
       {gespeichert ? (
         <div className="reihe">
           <span className="gut">Schlüssel ist in diesem Browser gespeichert.</span>
